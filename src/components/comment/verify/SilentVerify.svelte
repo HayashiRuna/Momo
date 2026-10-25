@@ -288,7 +288,7 @@
   <div
     class="verify-box relative flex items-center gap-1.5 rounded px-2.5 h-[38px] border text-sm select-none
       {status === 'success'
-        ? 'border-green-500/60 text-green-600 dark:text-green-400'
+        ? 'verify-success'
         : 'border-[var(--button-border-color)] text-[var(--text-color)]/70'}"
     role="status"
     aria-live="polite"
@@ -339,5 +339,10 @@
     opacity: 0;
     pointer-events: none;
     z-index: -1;
+  }
+
+  .verify-success {
+    color: var(--verify-success-color, #15803d);
+    border-color: var(--verify-success-border-color, rgba(22, 163, 74, 0.5));
   }
 </style>

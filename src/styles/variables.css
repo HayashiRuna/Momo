@@ -81,6 +81,9 @@
 
     --selection-bg-color: #0063ba;
     --selection-text-color: #ffffff;
+
+    --verify-success-color: #15803d;
+    --verify-success-border-color: rgba(22, 163, 74, 0.5);
   }
 
   [data-theme="dark"] {
@@ -113,4 +116,7 @@
 
     --selection-bg-color: #2f5f80;
     --selection-text-color: #ffffff;
+
+    --verify-success-color: #4ade80;
+    --verify-success-border-color: rgba(74, 222, 128, 0.45);
   }
